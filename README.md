@@ -5,7 +5,7 @@ Tiene como objetivo determinar cuando una función es constante o balanceada. Si
 
 ## Como usar
    ### Función 1
-       Esta función representa cuando las dos entradas tiene como salida 0, para demostrar que esta es constante, se hace uso de sobre compuerta CNOT para que actue como Uf y se arma el circuito de acuerdo al algoritmo de Deustch. 
+   Esta función representa cuando las dos entradas tiene como salida 0, para demostrar que esta es constante, se hace uso de sobre compuerta CNOT para que actue como Uf y se arma el circuito de acuerdo al algoritmo de Deustch. 
        
       circuit = QuantumCircuit(2, 1)
       circuit.x(1)
@@ -20,12 +20,8 @@ Tiene como objetivo determinar cuando una función es constante o balanceada. Si
       circuit.h(0)
 
 
-circuit.measure([0], [0])
+      circuit.measure([0], [0])
     
-
-<!--endsec-->
-
-<!--sec data-title="Prompt: Windows" data-id="windows_prompt2" data-collapse=true ces-->
 
 **Programa 'teoría cuantica':
   'El sistema consiste en una partícula confinada a un conjunto discreto de posiciones en una línea. El simulador permite especificar el número de posiciones y un vector ket de estado asignando las amplitudes.'. Este simulador,antes de realizar los respectivos calculos, verifica que el vector este normalizado, si no, lo normaliza y calcula la probabilidad de que esté en cierta posición, si se desea saber la amplitud, este, contiene una función que la calcula y le retorna el valor.
