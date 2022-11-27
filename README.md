@@ -5,6 +5,8 @@ Tiene como objetivo determinar cuando una función es constante o balanceada. Si
 
 ## Como usar
    ### Función 1
+       Esta función representa cuando las dos entradas tiene como salida 0, para demostrar que esta es constante, se hace uso de sobre compuerta CNOT para que actue como Uf y se arma el circuito de acuerdo al algoritmo de Deustch. 
+       
       ```
       circuit = QuantumCircuit(2, 1)
       circuit.x(1)
