@@ -39,7 +39,7 @@ Tiene como objetivo determinar cuando una función es constante o balanceada. Si
 
       circuit.measure([0], [0])
       
-##Función 3
+## Función 3
 Esta función representa cuando la entrada es 0, tiene como salida 1. De igual manera, cuando la entrada es 1, tiene como salida 0. Haciendo uso de una sola compuerta CNOT y negando la entrada del 'alambre' de arriba para que actue como Uf del agoritmo de Deustch; obtenemos el resultado esperado, una función balanceada.
 
       circuit = QuantumCircuit(2, 1)
@@ -57,7 +57,7 @@ Esta función representa cuando la entrada es 0, tiene como salida 1. De igual m
 
       circuit.measure([0], [0])
       
-##Función 4
+## Función 4
 Esta función representa que ambas entradas tienen como salida 1. Para saber cual es la matriz Uf, se niega de la entrada de arriba y se realiza el uso de dos compuerta CNOT, al final, se obtiene el valor esperado, una función constante.
 
       circuit = QuantumCircuit(2, 1)
