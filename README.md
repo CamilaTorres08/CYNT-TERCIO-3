@@ -103,6 +103,7 @@ Tiene como objetivo determinar, de la misma manera que el algoritmo de Deustch, 
    Esta función representa cuando la primera mitad de las entradas van a 0 y la otra mitad a 1. Se hace uso de una compuerta CNOT con la primera entrada y la ultima, para así obtener el resultado esperado, una función balanceada. 
    
    ![image](https://user-images.githubusercontent.com/111332434/204168714-3d5e27b5-2c9c-4503-b2fc-332e410cf132.png)
+   ![image](https://user-images.githubusercontent.com/111332434/204177489-023bb371-5295-4c39-956f-2067d685cf91.png)
 
        
       circuit = QuantumCircuit(5, 5)
@@ -129,6 +130,7 @@ Tiene como objetivo determinar, de la misma manera que el algoritmo de Deustch, 
   Esta función representa las entradas se van intercalando, una mitas va a 0 y otra a 1. Para comprobar que es balanceada, se hace uso de la compuerta CNOT entre la cuarta entrada y la ultima entrada. Así, se comprueba que esta es balanceada. 
   
   ![image](https://user-images.githubusercontent.com/111332434/204168722-3c336e73-aa22-4c8d-846e-8975d3616fbb.png)
+  ![image](https://user-images.githubusercontent.com/111332434/204177506-2fd3217d-8b2d-4376-ad57-532a64055c43.png)
 
   
      circuit = QuantumCircuit(5, 5)
@@ -154,7 +156,7 @@ Tiene como objetivo determinar, de la misma manera que el algoritmo de Deustch, 
 Esta función representa cuando la primera mitad de las entradas van a 1 y la otra mitad a 0. Se hace uso de una compuerta CNOT y la negación con la primera entrada y la ultima, para así obtener el resultado esperado, una función balanceada.  
 
 ![image](https://user-images.githubusercontent.com/111332434/204168735-91f05035-e572-4d24-beeb-bb7d2b64f54a.png)
-
+![image](https://user-images.githubusercontent.com/111332434/204177534-051d8bb6-6d69-4744-b517-d565842a7379.png)
 
       circuit = QuantumCircuit(5, 5)
       circuit.x(4)
