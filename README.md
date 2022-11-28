@@ -3,6 +3,8 @@
 A continuación se presenta el programa "Deustch" donde a través de la libreria Qiskit, se realiza una simulación del algoritmo de Deustch usando las cuatro funciones primordiales de este algoritmo.
 Tiene como objetivo determinar cuando una función es constante o balanceada. Siendo  la salida 0 cuando es constante y balanceada en caso contrario. 
 
+![image](https://user-images.githubusercontent.com/111332434/204168905-3e090cf5-7322-4ffa-81ea-3d42c16c6832.png)
+
 ## Como usar
    ### Función 1
    Esta función representa cuando las dos entradas tiene como salida 0, para demostrar que esta es constante, se hace uso de doble compuerta CNOT para que actue como Uf y se arma el circuito de acuerdo al algoritmo de Deustch.
@@ -92,6 +94,9 @@ Esta función representa que ambas entradas tienen como salida 1. Para saber cua
 
 A continuación se presenta el programa "DeustchJotza" donde a través de la libreria Qiskit, se realiza una simulación del algoritmo de Deustch-Jotza con n = 4, tres funciones balanceadas y una constante.
 Tiene como objetivo determinar, de la misma manera que el algoritmo de Deustch, cuando una función es constante o balanceada. Siendo la salida 000...n cuando es constante y balanceada en caso contrario. 
+
+![image](https://user-images.githubusercontent.com/111332434/204168943-f6db3530-f291-4330-ae6f-b4057d8f211b.png)
+
 
 ## Como usar
    ### Función 1
