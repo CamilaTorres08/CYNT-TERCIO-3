@@ -8,8 +8,8 @@ Tiene como objetivo determinar cuando una función es constante o balanceada. Si
    Esta función representa cuando las dos entradas tiene como salida 0, para demostrar que esta es constante, se hace uso de doble compuerta CNOT para que actue como Uf y se arma el circuito de acuerdo al algoritmo de Deustch. 
    
    ![image](https://user-images.githubusercontent.com/111332434/204168552-370c5785-1552-4923-b50f-f1161de105d1.png)
-
-       
+   ![image](https://user-images.githubusercontent.com/111332434/204168594-051ae065-fd2b-48dd-9205-d82beeef8f38.png)
+   
       circuit = QuantumCircuit(2, 1)
       circuit.x(1)
       circuit.barrier()
